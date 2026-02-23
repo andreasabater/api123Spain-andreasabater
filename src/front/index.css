@@ -1,0 +1,65 @@
+/* Fondo negro para toda la app */
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* Estilos para el navbar */
+.starwars-navbar {
+  background-color: #000 !important;
+  padding: 0.7rem 1rem;
+}
+
+/* Logo */
+.sw-logo {
+  height: 55px;
+  filter: drop-shadow(0 0 4px yellow);
+  transition: transform 0.2s ease-in-out;
+}
+
+.sw-logo:hover {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 6px #ffe81f);
+}
+
+/* Links estilo star wars */
+.nav-link {
+  color: #ffe81f !important;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: #111;
+  border: 1px solid #333;
+}
+
+.dropdown-item {
+  color: #ffe81f;
+}
+
+.dropdown-item:hover {
+  background-color: #222;
+  color: white;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.bg-dark {
+  background-color: #111 !important;
+}
